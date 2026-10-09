@@ -3,7 +3,7 @@
 #!category=Crack
 
 [Script]
-Moshi Pro = type=http-request, pattern=^https://api\.getmoshi\.app/api/v1/(?:licenses|entitlements), requires-body=0, max-size=0, script-path=https://raw.githubusercontent.com/trend0522/Rewrite/moshi/moshi-pro2.js
+Moshi Pro = type=http-request, pattern=^https://api\.getmoshi\.app/api/v1/(?:licenses|entitlements), requires-body=0, max-size=0, script-path=https://raw.githubusercontent.com/trend0522/Rewrite/main/moshi/moshi-pro2.js
 
 [MITM]
 hostname = api.getmoshi.app
