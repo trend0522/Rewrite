@@ -1,9 +1,0 @@
-#!name=Moshi Pro
-#!desc=3.13.2 买断永久 Pro 后续版本为止
-#!category=Crack
-
-[Script]
-Moshi Pro = type=http-request, pattern=^https://api\.getmoshi\.app/api/v1/(?:licenses|entitlements), requires-body=0, max-size=0, script-path=https://raw.githubusercontent.com/你的用户名/你的仓库/main/moshi-pro.js
-
-[MITM]
-hostname = api.getmoshi.app
